@@ -194,6 +194,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/warm/proprietary/system_ext/etc/permissions/vendor.qti.ims.rcsservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vendor.qti.ims.rcsservice.xml \
     vendor/xiaomi/warm/proprietary/system_ext/etc/sysconfig/qti_telephony_system_packages_config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_telephony_system_packages_config.xml \
     vendor/xiaomi/warm/proprietary/system_ext/etc/sysconfig/qti_whitelist_system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_whitelist_system_ext.xml \
+    vendor/xiaomi/warm/proprietary/vendor/etc/acdbdata/IDP_UPD/IDP_UPD_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/IDP_UPD/IDP_UPD_acdb_cal.acdb \
+    vendor/xiaomi/warm/proprietary/vendor/etc/acdbdata/IDP_UPD/IDP_UPD_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/IDP_UPD/IDP_UPD_workspaceFileXml.qwsp \
     vendor/xiaomi/warm/proprietary/vendor/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__3.0.0_0.0__eai_2.10_enpu3.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__3.0.0_0.0__eai_2.10_enpu3.pmd \
     vendor/xiaomi/warm/proprietary/vendor/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__eai_2.10_enpu3.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__eai_2.10_enpu3.pmd \
     vendor/xiaomi/warm/proprietary/vendor/etc/acdbdata/ffv_models/ffv__5.0.2_0.1__3.0.0_0.0__eai_3.5_adsp.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/ffv_models/ffv__5.0.2_0.1__3.0.0_0.0__eai_3.5_adsp.pmd \
@@ -234,10 +236,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/warm/proprietary/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd \
     vendor/xiaomi/warm/proprietary/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_2.10_enpuv3.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_2.10_enpuv3.pmd \
     vendor/xiaomi/warm/proprietary/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_3.4_enpuv4.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_3.4_enpuv4.pmd \
+    vendor/xiaomi/warm/proprietary/vendor/etc/acdbdata/pitti_idp/IDP_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/pitti_idp/IDP_acdb_cal.acdb \
+    vendor/xiaomi/warm/proprietary/vendor/etc/acdbdata/pitti_idp/IDP_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/pitti_idp/IDP_workspaceFileXml.qwsp \
     vendor/xiaomi/warm/proprietary/vendor/etc/acdbdata/pitti_qrd/QRD_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/pitti_qrd/QRD_acdb_cal.acdb \
     vendor/xiaomi/warm/proprietary/vendor/etc/acdbdata/pitti_qrd/QRD_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/pitti_qrd/QRD_workspaceFileXml.qwsp \
     vendor/xiaomi/warm/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
+    vendor/xiaomi/warm/proprietary/vendor/etc/audio/sku_pitti/mixer_paths_pitti_idp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_pitti/mixer_paths_pitti_idp.xml \
     vendor/xiaomi/warm/proprietary/vendor/etc/audio/sku_pitti/mixer_paths_pitti_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_pitti/mixer_paths_pitti_qrd.xml \
+    vendor/xiaomi/warm/proprietary/vendor/etc/audio/sku_pitti/resourcemanager_pitti_idp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_pitti/resourcemanager_pitti_idp.xml \
     vendor/xiaomi/warm/proprietary/vendor/etc/audio/sku_pitti/resourcemanager_pitti_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_pitti/resourcemanager_pitti_qrd.xml \
     vendor/xiaomi/warm/proprietary/vendor/etc/audio_diag.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/audio_diag.cfg \
     vendor/xiaomi/warm/proprietary/vendor/etc/batching.conf:$(TARGET_COPY_OUT_VENDOR)/etc/batching.conf \
@@ -656,10 +662,20 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/warm/proprietary/vendor/etc/izat.conf:$(TARGET_COPY_OUT_VENDOR)/etc/izat.conf \
     vendor/xiaomi/warm/proprietary/vendor/etc/kvh2xml.xml:$(TARGET_COPY_OUT_VENDOR)/etc/kvh2xml.xml \
     vendor/xiaomi/warm/proprietary/vendor/etc/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf \
+    vendor/xiaomi/warm/proprietary/vendor/etc/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
+    vendor/xiaomi/warm/proprietary/vendor/etc/media_codecs_google_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_c2.xml \
+    vendor/xiaomi/warm/proprietary/vendor/etc/media_codecs_google_c2_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_c2_audio.xml \
+    vendor/xiaomi/warm/proprietary/vendor/etc/media_codecs_google_c2_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_c2_video.xml \
     vendor/xiaomi/warm/proprietary/vendor/etc/media_codecs_performance_pitti.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_pitti.xml \
+    vendor/xiaomi/warm/proprietary/vendor/etc/media_codecs_performance_pitti_32go.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_pitti_32go.xml \
     vendor/xiaomi/warm/proprietary/vendor/etc/media_codecs_pitti.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_pitti.xml \
+    vendor/xiaomi/warm/proprietary/vendor/etc/media_codecs_pitti_32go.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_pitti_32go.xml \
     vendor/xiaomi/warm/proprietary/vendor/etc/media_pitti/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_pitti/video_system_specs.json \
+    vendor/xiaomi/warm/proprietary/vendor/etc/media_pitti_32go/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_pitti_32go/video_system_specs.json \
+    vendor/xiaomi/warm/proprietary/vendor/etc/media_profiles.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles.xml \
+    vendor/xiaomi/warm/proprietary/vendor/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
     vendor/xiaomi/warm/proprietary/vendor/etc/media_profiles_pitti.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_pitti.xml \
+    vendor/xiaomi/warm/proprietary/vendor/etc/media_profiles_pitti_32go.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_pitti_32go.xml \
     vendor/xiaomi/warm/proprietary/vendor/etc/models/acd/environment.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/environment.eai \
     vendor/xiaomi/warm/proprietary/vendor/etc/models/acd/event.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/event.eai \
     vendor/xiaomi/warm/proprietary/vendor/etc/models/acd/music.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/music.eai \
@@ -1136,6 +1152,8 @@ PRODUCT_PACKAGES += \
     libdsd2pcm \
     libdsi_netctrl \
     libdsutils \
+    libeai_fixed \
+    libeai_float \
     libengineplugin \
     libesesbprovision \
     libfastcrc \
@@ -1174,6 +1192,7 @@ PRODUCT_PACKAGES += \
     libkeymasterutils \
     liblbs_core \
     liblearningmodule \
+    liblistensoundmodel2vendor \
     libllvm-glnext \
     libllvm-qcom \
     libllvm-qgl \
@@ -1306,6 +1325,9 @@ PRODUCT_PACKAGES += \
     libqdp \
     libqdpr \
     libqdutils \
+    libqesdk2_0 \
+    libqesdk_manager \
+    libqesdoem_query_sys \
     libqisl \
     libqll10 \
     libqllengine \
@@ -1598,6 +1620,12 @@ PRODUCT_PACKAGES += \
     vendor.qti.memory.pasrmanager@1.1 \
     vendor.qti.qccvndhal_aidl-V1-ndk \
     vendor.qti.qccvndhal_aidl-halimpl \
+    vendor.qti.qesdhal@1.0 \
+    vendor.qti.qesdhal@1.1 \
+    vendor.qti.qesdhal@1.2 \
+    vendor.qti.qesdhal@1.3 \
+    vendor.qti.qesdsys-V3-ndk \
+    vendor.qti.qesdsys-V4-ndk \
     vendor.qti.qspmhal-V1-ndk \
     vendor.qti.qspmhal-impl \
     vendor.qti.qspmhal@1.0 \
@@ -1630,11 +1658,13 @@ PRODUCT_PACKAGES += \
     libimsmedia_jni \
     libmmosal \
     libmmparser_lite \
+    libqesdk_ndk_platform.qti \
     vendor.qti.ImsRtpService-V1-ndk \
     vendor.qti.diaghal@1.0 \
     vendor.qti.hardware.seccam@1.0 \
     vendor.qti.imsrtpservice@3.0 \
     vendor.qti.imsrtpservice@3.1 \
+    vendor.qti.qesdhalaidl-V2-ndk \
     vendor.xiaomi.hardware.display.mihwcextension-V1-ndk \
     displayfeature.default \
     libMiDispDevManager \
@@ -1672,6 +1702,7 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentYGoogleHEXAGON_WIDEBAND \
     AtFwd2 \
     ImsRcsService \
+    QesdkSysService \
     QtiTelephonyService \
     QtiTelephony \
     ims \
@@ -1744,6 +1775,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.qccvndhal_aidl-service.xml \
     vendor.qti.qspmhal-service.xml \
     vendor.xiaomi.hardware.displayfeature_aidl-service.xml \
+    vendor.qti.qesdsys.service.xml \
     manifest_vendor.xiaomi.hardware.mlipay.xml \
     ATFWD-daemon \
     adpl \
